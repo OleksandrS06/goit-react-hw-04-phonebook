@@ -13,13 +13,13 @@ const Form = ({ onSubmit }) => {
     switch (name) {
       case 'name':
         setName(value);
-        break;
+        return;
 
       case 'number':
         setNumber(value);
-
+        return;
       default:
-        break;
+        return;
     }
   };
 
